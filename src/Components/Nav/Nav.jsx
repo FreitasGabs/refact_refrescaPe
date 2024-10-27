@@ -1,9 +1,9 @@
 import "./Nav.scss"
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
-import Apresentacao from "../Components/Apresentacao/Apresentacao"
-import Porcelanatos from "../Components/Porcelanatos/Porcelanatos"
-import Complementos from "../Components/Complementos/Complementos"
-import Pedidos from "../Components/Pedidos/Pedidos"
+import Apresentacao from "../Apresentacao/Apresentacao"
+import Porcelanatos from "../Porcelanatos/Porcelanatos"
+import Complementos from "../Complementos/Complementos"
+import Pedidos from "../Pedidos/Pedidos"
 
 export default function Nav() {
     return (
