@@ -1,7 +1,7 @@
 //adicionando variáveis
 $cor-fundo: #BBAA99;
 
-@mixin texto {
+@mixin texto-header {
     color: #7711CC;
     font-family: 'Karla', Verdana, 'Ubuntu';
 }
@@ -15,7 +15,7 @@ header {
     background-color: $cor-fundo;
     padding: 10px;
 
-    @include texto;
+    @include texto-header;
     font-style: italic;
     
     display: flex;
