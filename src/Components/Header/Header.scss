@@ -1,12 +1,23 @@
-header {
-    background-color: #BBAA99;
+//adicionando variáveis
+$cor-fundo: #BBAA99;
+
+@mixin texto {
     color: #7711CC;
-    font-style: italic;
-    // adicionando a fonte principal e as duas secundárias
     font-family: 'Karla', Verdana, 'Ubuntu';
-    
+}
+
+@mixin linkStyle {
+    text-decoration: none;
+    color: #7711CC;
+}
+
+header {
+    background-color: $cor-fundo;
     padding: 10px;
 
+    @include texto;
+    font-style: italic;
+    
     display: flex;
     justify-content: space-between;
 
@@ -20,8 +31,7 @@ header {
 }
 
 a {
-    text-decoration: none;
-    color: #7711CC;
+    @include linkStyle;
 }
 
 img {
