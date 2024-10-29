@@ -1,0 +1,16 @@
+//adicionando variáveis
+$cor-fundo-section: #EEDDCC;
+
+.olComplementos {
+    color: black;
+    font-family: 'Stoke', 'Lucida Bright', 'Liberation';
+    margin: 3em;
+    padding: 1.5em;
+    background-color: $cor-fundo-section;
+    border: solid 2px black;
+    
+
+        ul {
+            margin: 1.5em;
+        }
+}

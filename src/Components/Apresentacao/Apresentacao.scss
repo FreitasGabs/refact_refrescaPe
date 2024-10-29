@@ -1,0 +1,18 @@
+//adicionando variáveis
+$cor-fundo: #BBAA99;
+
+@mixin texto-principal {
+    color: #7711CC;
+    font-family: 'Stoke', 'Lucida Bright', 'Liberation';
+}
+
+section {
+    background-color: $cor-fundo;
+    @include texto-principal;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}

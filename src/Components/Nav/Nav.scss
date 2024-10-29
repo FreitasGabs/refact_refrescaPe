@@ -1,0 +1,33 @@
+//adicionando variáveis
+$cor-fundo: #BBAA99;
+
+@mixin texto-nav {
+    color: #7711CC;
+    font-family: 'Karla', Verdana, 'Ubuntu';
+}
+
+@mixin linkStyle {
+    text-decoration: none;
+    color: #7711CC;
+}
+
+nav {
+    @include texto-nav;
+    background-color: $cor-fundo;
+    padding: 30px;
+
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: square;
+}
+
+a {
+    @include linkStyle;
+}
+
+a:visited {
+    color: #8822DD;
+}
